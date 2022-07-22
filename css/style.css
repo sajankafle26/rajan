@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap');
+body 
+{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 
+{
+	font-family: 'Quicksand', sans-serif;
+}
+.top
+{
+	background: #FF0000;
+	line-height: 35px;
+}
+.bg-grey
+{
+	background: #E3E3E3;
+	border-radius: 10px;
+}
+.owl-carousel .owl-item img
+{
+	width: auto;
+	margin: auto;
+}
+.productbox {
+    background-color:#ffffff;
+	padding:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #999;
+}
+
+.producttitle {
+    font-weight:bold;
+	padding:5px 0 5px 0;
+}
+
+.productprice {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+}
+
+.pricetext {
+	font-weight:bold;
+	font-size:16px;
+}
+@media(max-width:  480px)
+{
+	.btn.btn-danger.sm-btn{ display: inline-block !important; width: 100% !important;
+	margin: 3px 0; }
+}
+
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+  .img-area img 
+  {
+	max-width: 10%;
+  }
+  .single-box .content
+  {
+	text-align: center !important;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+	color: #fff;
+	padding:5px 20px;
+	font-size: 18px;
+}
+.text-danger 
+{
+	color: #F70113 !important;
+}
+.btn-danger
+{
+	background: #F70113;
+}
+.cc img 
+{
+	border: 2px solid #fff;
+}
+.single-box 
+{
+	background: #212121;
+	padding: 20px;
+}
+.single-box .content 
+{
+	text-align: left;
+}
+.img-area img 
+{
+	border-radius: 50%;
+	width: 60% !important;
+}
+footer ul li {
+	border-top: none;
+	font-size: 14px;
+  }
+  footer ul
+  {
+	list-style: none;
+	padding: 0;
+  }
+  footer ul li a 
+  {
+	text-decoration: none;
+	color: #fff;
+  }
+  .bi-star-fill
+  {
+	color: orange;
+  }
